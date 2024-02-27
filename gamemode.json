@@ -1,3 +1,5 @@
 {
-    "Name": "Анархия"
+    "Name": "Анархия", 
+    "StartClientVersion": 334,
+    "ApiVersion": 2,
 }
