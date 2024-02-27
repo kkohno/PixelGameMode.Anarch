@@ -15,6 +15,6 @@ blueTeam.Spawns.SpawnPointsGroups.Add(1)
 blueTeam.Build.BlocksSet.Value = BuildBlocksSet.Blue
 
 // Обработчик выбора команды
-Teams.OnRequestJoinTeam.Add((p, t) => {
+Teams.OnRequestJoinTeam.Add(function(p, t) {
     t.add(p)
 })
